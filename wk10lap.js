@@ -158,12 +158,12 @@ let img = document.createElement('img')
 img.src = "/GradPro QR Code.png";
 img.style.width = "250px";
 img.id ="image";
-//img.onmouseover = mHide();
 document.body.appendChild(img);
 
 let img2 = document.getElementById('image').addEventListener('mouseover', () => {
    img.style.display = "none";
 });
+
 
 let img3 = document.getElementById('image').addEventListener('mouseout', () => {
     img.style.display = "block";
